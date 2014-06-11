@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/trygve-lie/window.document.git"
   },
+  "bugs": {
+    "url": "https://github.com/trygve-lie/window.document/issues"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js --reporter spec"
+  },
   "keywords": [
     "dom",
     "html",
@@ -23,6 +29,7 @@
   "license": "MIT",
   "devDependencies": {
     "jshint": "latest",
-    "mocha": "latest"
+    "mocha": "latest",
+    "chai": "latest"
   }
 }
