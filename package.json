@@ -1,0 +1,28 @@
+{
+  "name": "window.document",
+  "version": "0.1.0",
+  "description": "Simple shim for the browsers window.document",
+  "main": "lib/document.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trygve-lie/window.document.git"
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "document",
+    "window",
+    "template",
+    "browser",
+    "server"
+  ],
+  "author": "Trygve Lie <github@trygve-lie.com>",
+  "contributors": [
+    "Jed Schmidt <tr@nslator.jp>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "latest",
+    "mocha": "latest"
+  }
+}
